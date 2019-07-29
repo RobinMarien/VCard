@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/home/robin/Desktop/becode_projects/VCard/img/background.jpg");
+    background-size: 100%;
+}
+
+.vcard {
+    color:white;
+    font-size: 20px;
+    width: 450px;
+    height:200px;
+    margin:auto;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: linear-gradient(#d41100,#000);
+}
+
+.photo {
+    float:left;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #4f0902;
+}
+
+.vcard a{
+    color:white;
+    display:block;
+}
+
+.vcard a:hover{
+    color: #ff392b;
+}
+
+.fn{
+    display:inline-block;
+    margin-top: 7px;
+}
